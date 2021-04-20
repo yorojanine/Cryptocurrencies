@@ -3,7 +3,7 @@
 ## Purpose
 
 The purpose of this challenge was to apply what we've learned about **unsupervised machine learning** and how it applies to the cryptocurrency market. Throughout the module,
-we learned how to process data, how to cluster, how to reduce our dimensions and how to reduce the principal components using PCA. As such, the intent is to the apply these skills to the challenge. The goal is to "create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for [a new investment]".
+we learned how to process data, how to cluster, how to reduce our dimensions and how to create the principal components using PCA. As such, the intent is to the apply these skills to the challenge. The goal is to "create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for [a new investment]".
 
 ## Analysis/Results
 
@@ -26,6 +26,11 @@ Running our K-Means model into 4 clusters, the model is then set to be fitted, a
 ![](resources/3d_scatter.png)<br><br>
 Further, with **532** tradable cryptocurrencies, the data was scaled in order to plot the data on a scatterplot. This data is then taken through to generate the following image using `hvplot.scatter()`: <br>
 ![](resources/hvplot.png)<br>
-
+#### As we can see, with the goal of creating classifications, the data was parsed into 4 main groups/classes.
 
 ## Challenges
+
+In running through the code blocks, I ran into an issue where I was unable to understand why the predictions would always increase after stepping through the code in different sprints. My challenge was determining how to reset the predictions. For example, after wi
+
+![](resources/challenge1.PNG)<br>
+![](resources/challenge2.PNG)<br>

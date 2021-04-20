@@ -30,7 +30,10 @@ Further, with **532** tradable cryptocurrencies, the data was scaled in order to
 
 ## Challenges
 
-In running through the code blocks, I ran into an issue where I was unable to understand why the predictions would always increase after stepping through the code in different sprints. My challenge was determining how to reset the predictions. For example, after wi
-
-
+In running through the code blocks, I ran into an issue where I was unable to understand why the predictions would always increase after stepping through the code in different sprints. My challenge was determining how to reset the predictions. 
+For example, after writing the code initially, the predictions produced the following:<br>
+![](resources/challenge1.PNG)<br>
+However, at some point I wanted to re-run my code and the predictions re-generated the following:<br>
 ![](resources/challenge2.PNG)<br>
+The problem with re-running was that it would throw off my final visualization and the clusters wouldn't match what was noted in the module. Hence, I never saved the re-run and went with the initial code for submission. However, I am a bit boggled by it. <br>
+<b>*Is there a way to reset the code without losing the intented results?*</b>

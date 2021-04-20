@@ -32,5 +32,5 @@ Further, with **532** tradable cryptocurrencies, the data was scaled in order to
 
 In running through the code blocks, I ran into an issue where I was unable to understand why the predictions would always increase after stepping through the code in different sprints. My challenge was determining how to reset the predictions. For example, after wi
 
-![](resources/challenge1.PNG)<br>
+
 ![](resources/challenge2.PNG)<br>
